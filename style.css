@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-direction: space-between;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
