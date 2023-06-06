@@ -6,10 +6,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*ARE THE BUTTONS SAME SIZE?*/
+/*NEED SEPERATE CLASSES FOR THESE BUTTONS NOT UNIVERSAL*/
 button {
     background-color: #3882F6;
-    flex-basis: 0;
 }
 
 .header,
@@ -74,6 +73,7 @@ a {
 .left-side-intro {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 1;
 }
 
@@ -91,18 +91,26 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .intro-para {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-/*NEED TO ADD DESIGN TO BUTTON*/
-/*ROUNDED CORNERS, FULL BLUE NO WHITE LINE*/
 .intro-button {
     flex-basis: 0;
     align-self: flex-start;
+    font-size: 18px;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
 }
 
 /*INFORMATION SECTION*/
@@ -115,7 +123,6 @@ a {
     padding: 50px;
 }
 
-/*BLUE BORDER AND ROUNDED CORNERS*/
 .information-images {
     display: flex;
     justify-content: center;
@@ -131,9 +138,9 @@ a {
     text-align: center;
 }
 
-/*ROUNDED CORNERS */
 .info-image {
     border: 2px solid #3882F6;
+    border-radius: 10px;
 }
 
 /*CALL TO ACTION SECTION*/
@@ -175,7 +182,6 @@ a {
     justify-content: center;
     background-color: #E5E7EB;
     padding: 150px;
-    /*DOUBLE CHECK PADDING ON L/R OF QUOTE*/
     padding-right: 400px;
     padding-left: 400px;
 }
