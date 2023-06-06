@@ -1,14 +1,7 @@
-/*UNIVERSAL SECTION*/
-
-
+/*UNIVERSAL*/
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-/*NEED SEPERATE CLASSES FOR THESE BUTTONS NOT UNIVERSAL*/
-button {
-    background-color: #3882F6;
 }
 
 .header,
@@ -17,14 +10,6 @@ button {
     background-color: #1F2937;
 }
 
-
-/*NEED CLASS FOR THESE IMAGES IN INFORMATION SECTION*/
-img {
-    width: 150px;
-    height: 150px;
-}
-
-
 .content {
     display: flex;
     flex-direction: column;
@@ -32,8 +17,12 @@ img {
     flex: 1;
 }
 
+button {
+    background-color: #3882F6;
+}
 
-/*HEADER SECTION*/
+
+/*HEADER*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -60,7 +49,7 @@ a {
     color: #E5E7EB;
 }
 
-/*INTRODUCITON SECTION*/
+/*INTRODUCTION*/
 .introduction {
     display: flex;
     justify-content: space-evenly;
@@ -114,7 +103,7 @@ a {
     border: none;
 }
 
-/*INFORMATION SECTION*/
+/*INFORMATION*/
 .information {
     display: flex;
     flex-direction: column;
@@ -142,9 +131,11 @@ a {
 .info-image {
     border: 2px solid #3882F6;
     border-radius: 10px;
+    width: 150px;
+    height: 150px;
 }
 
-/*CALL TO ACTION SECTION*/
+/*CALL TO ACTION*/
 .call-to-action {
     background-color: #3882F6;
     margin: 250px;
@@ -155,7 +146,6 @@ a {
     justify-content: space-around;
     align-items: center;
 }
-
 
 .call-to-action-primary {
     font-size: 24px;
@@ -177,16 +167,7 @@ a {
     padding-right: 40px;
 }
 
-/*FOOTER*/
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #E5E7EB;
-}
-
-/*INSPIRING QUOTE SECTION*/
+/*INSPIRING QUOTE*/
 .inspiring-quote {
     display: flex;
     flex-direction: column;
@@ -208,4 +189,13 @@ a {
     justify-content: flex-end;
     color: #1F2937;
     font-weight: bold;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
