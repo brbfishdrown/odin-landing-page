@@ -9,7 +9,7 @@ body {
 /*ARE THE BUTTONS SAME SIZE?*/
 button {
     background-color: #3882F6;
-
+    flex-basis: 0;
 }
 
 .header,
@@ -21,8 +21,8 @@ button {
 
 /*NEED CLASS FOR THESE IMAGES IN INFORMATION SECTION*/
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -37,9 +37,12 @@ img {
 /*HEADER SECTION*/
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header-logo {
@@ -61,29 +64,85 @@ a {
 /*INTRODUCITON SECTION*/
 .introduction {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 150px;
 }
 
 .left-side-intro {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
+
+.right-side-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background-color: gray;
+    color: #E5E7EB;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro-para {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*NEED TO ADD DESIGN TO BUTTON*/
+/*ROUNDED CORNERS, FULL BLUE NO WHITE LINE*/
+.intro-button {
+    flex-basis: 0;
+    align-self: flex-start;
 }
 
 /*INFORMATION SECTION*/
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
 
-
-/*BLUE BORDER AND ROUNDED CORNERS need to center text as well*/
+/*BLUE BORDER AND ROUNDED CORNERS*/
 .information-images {
     display: flex;
-    justify-content: space-evenly;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
+}
+
+.information-sections {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+/*ROUNDED CORNERS */
+.info-image {
+    border: 2px solid #3882F6;
 }
 
 /*CALL TO ACTION SECTION*/
 .call-to-action {
     background-color: #3882F6;
-    margin: 50px;
+    margin: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
