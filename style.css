@@ -20,3 +20,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.information-images {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
