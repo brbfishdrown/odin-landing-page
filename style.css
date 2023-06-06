@@ -52,7 +52,7 @@ a {
 /*INTRODUCTION*/
 .introduction {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 80px;
     padding-left: 100px;
     padding-right: 100px;
@@ -64,14 +64,15 @@ a {
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    width: 900px;
 }
-
 
 .right-side-intro {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 900px;
+    flex: 1;
+    width: 1000px;
     height: 400px;
     background-color: gray;
     color: #E5E7EB;
