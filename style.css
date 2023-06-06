@@ -1,18 +1,48 @@
 body {
+    margin: 0px;
+}
+
+.content {
     display: flex;
     flex-direction: column;
     flex-direction: space-between;
+    flex: 1;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
+    font-size: 18px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side-intro {
+    width: 300px;
+
+}
+
+/* JUSTIFY CENTER WITH 10PX GAP + BLUE BORDER AND ROUNDED CORNERS*/
+.information-images {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
 
 .footer {
@@ -21,13 +51,41 @@ body {
     align-items: center;
 }
 
-.information-images {
-    display: flex;
-    justify-content: space-evenly;
+.main-content {
+    flex: auto;
+}
+
+.header,
+.introduction,
+.footer {
+    background-color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
 
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.inspiring-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
