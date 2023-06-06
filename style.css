@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
@@ -9,11 +10,17 @@ body {
     flex: 1;
 }
 
+
+/*HEADER SECTION*/
 .header {
     display: flex;
     justify-content: space-around;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.header-logo {
+    font-weight: 900;
 }
 
 .header-links {
@@ -23,6 +30,7 @@ body {
     font-size: 18px;
 }
 
+/*INTRODUCITON SECTION*/
 .introduction {
     display: flex;
     justify-content: space-between;
@@ -33,11 +41,36 @@ body {
 
 }
 
-/* JUSTIFY CENTER WITH 10PX GAP + BLUE BORDER AND ROUNDED CORNERS*/
+
+/*CALL TO ACTION SECTION*/
+.call-to-action {
+    background-color: #3882F6;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.call-to-action-primary {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+
+/*BLUE BORDER AND ROUNDED CORNERS need to center text as well*/
 .information-images {
     display: flex;
     justify-content: space-evenly;
-
+    justify-content: center;
+    gap: 10px;
 }
 
 img {
@@ -45,10 +78,13 @@ img {
     height: 200px;
 }
 
+/*FOOTER*/
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .main-content {
@@ -65,6 +101,8 @@ button {
     background-color: #3882F6;
 
 }
+
+/*INSPIRING QUOTE SECTION*/
 
 .inspiring-quote {
     display: flex;
