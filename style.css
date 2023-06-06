@@ -1,7 +1,30 @@
+/*UNIVERSAL SECTION*/
+
+
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*ARE THE BUTTONS SAME SIZE?*/
+button {
+    background-color: #3882F6;
+
+}
+
+.header,
+.introduction,
+.footer {
+    background-color: #1F2937;
+}
+
+
+/*NEED CLASS FOR THESE IMAGES IN INFORMATION SECTION*/
+img {
+    width: 200px;
+    height: 200px;
+}
+
 
 .content {
     display: flex;
@@ -26,8 +49,13 @@ body {
 .header-links {
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 20px;
     font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 /*INTRODUCITON SECTION*/
@@ -41,6 +69,16 @@ body {
 
 }
 
+/*INFORMATION SECTION*/
+
+
+/*BLUE BORDER AND ROUNDED CORNERS need to center text as well*/
+.information-images {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
+}
 
 /*CALL TO ACTION SECTION*/
 .call-to-action {
@@ -62,22 +100,6 @@ body {
     color: #E5E7EB;
 }
 
-
-
-
-/*BLUE BORDER AND ROUNDED CORNERS need to center text as well*/
-.information-images {
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
-    gap: 10px;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-}
-
 /*FOOTER*/
 
 .footer {
@@ -87,27 +109,16 @@ img {
     color: #E5E7EB;
 }
 
-.main-content {
-    flex: auto;
-}
-
-.header,
-.introduction,
-.footer {
-    background-color: #1F2937;
-}
-
-button {
-    background-color: #3882F6;
-
-}
-
 /*INSPIRING QUOTE SECTION*/
-
 .inspiring-quote {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
+    padding: 150px;
+    /*DOUBLE CHECK PADDING ON L/R OF QUOTE*/
+    padding-right: 400px;
+    padding-left: 400px;
 }
 
 .quote {
@@ -121,9 +132,4 @@ button {
     justify-content: flex-end;
     color: #1F2937;
     font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
 }
